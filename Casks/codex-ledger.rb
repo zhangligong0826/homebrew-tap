@@ -7,6 +7,10 @@ cask "codex-ledger" do
   desc "Local Codex usage and cost ledger"
   homepage "https://github.com/zhangligong0826/codex-ledger"
 
+  livecheck do
+    skip "Beta releases are updated manually with verified artifact checksums"
+  end
+
   depends_on macos: :sonoma
 
   app "Codex Ledger.app"
