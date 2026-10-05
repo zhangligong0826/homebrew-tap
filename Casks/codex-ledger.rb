@@ -1,6 +1,6 @@
 cask "codex-ledger" do
-  version "1.2.0-beta.3"
-  sha256 "8dce44732c598bb831226344b3d2e787071b8733c91a3fbb92dfdf0e06761c36"
+  version "1.2.0-beta.4"
+  sha256 "482ebd48c034c7ed1bfa29fe72abefb2bc48e7633dddafdbec9c987c07abfa8f"
 
   url "https://github.com/zhangligong0826/codex-ledger/releases/download/v#{version}/Codex-Ledger-#{version}-macOS-universal.zip"
   name "Codex Ledger"
